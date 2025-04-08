@@ -1,0 +1,42 @@
+/* Buat seluruh halaman kontennya rata tengah */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container agar kontennya tetap rapih */
+  .container {
+    max-width: 600px;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  /* Style tambahan untuk gambar */
+  .card img {
+    width: 100%;
+    height: 100%; /* Tambahan ini mengecilkan tinggi gambar */
+    border-radius: 10px;
+    margin-bottom: 20px;
+  } 
+  
+  /* Style tombol */
+  .card button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .card button:hover {
+    background-color: #005fa3;
+  }
+  
